@@ -44,6 +44,6 @@ jobs:
           version: '${{ github.run_id }}'
           filepath: 'verademo.war'
           vid: '${{ secrets.API_ID }}'
-          vkey: '${{ secrets.API_KEY }}'
-          scantimeout: 15
+          vkey: '${{ secrets.API_KEY}}'
+          # scantimeout: 15
         # continue-on-error: true
